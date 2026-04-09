@@ -5,7 +5,7 @@ from gtts import gTTS
 import os
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyB4A6AJI-alpNL4uvej2QoFR5OnrM4QVEQ")
+genai.configure(api_key="API KEY HERE")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Language options (expanded to include 999+ languages in alphabetical order)
